@@ -39,8 +39,10 @@ using namespace std;
 int main() {
 
    // test();
-
+ 
+	char a;
     cout << "Enter expression: ";
+	cin >> a;
 
     string expression;
     getline(cin, expression);
